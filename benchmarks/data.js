@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778343989862,
+  "lastUpdate": 1778344824052,
   "repoUrl": "https://github.com/harinath02/textlint",
   "entries": {
     "Benchmark": [
@@ -108821,6 +108821,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.6986496736400001,
             "range": "± 0.025953617999999956",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "106722338+harinath02@users.noreply.github.com",
+            "name": "Harinath Chaurasiya",
+            "username": "harinath02"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d319623710474780f544dd78e3fb25856123400",
+          "message": "Merge branch 'master' into feature/eslint-workflow",
+          "timestamp": "2026-05-09T22:08:49+05:30",
+          "tree_id": "4cc780c68632f8baebfb748d8f6a957f4071831a",
+          "url": "https://github.com/harinath02/textlint/commit/0d319623710474780f544dd78e3fb25856123400"
+        },
+        "date": 1778344815059,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.24735257969999996,
+            "range": "± 0.21377303800000003",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.7655433516999999,
+            "range": "± 0.01962495300000011",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6599636649,
+            "range": "± 0.014673139999999973",
             "unit": "seconds"
           }
         ]
