@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778333191094,
-  "repoUrl": "https://github.com/textlint/textlint",
+  "lastUpdate": 1778343989862,
+  "repoUrl": "https://github.com/harinath02/textlint",
   "entries": {
     "Benchmark": [
       {
@@ -108779,6 +108779,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.6664260796200001,
             "range": "± 0.02657855100000006",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "harinath24iet@gmail.com",
+            "name": "harinath02",
+            "username": "harinath02"
+          },
+          "committer": {
+            "email": "harinath24iet@gmail.com",
+            "name": "harinath02",
+            "username": "harinath02"
+          },
+          "distinct": true,
+          "id": "006c313d458c757fc99e54153d1fb11777570e0b",
+          "message": "feat(eslint): integrate lint workflow with CI",
+          "timestamp": "2026-05-09T21:53:29+05:30",
+          "tree_id": "3a243bad1580200d8c6d09fc43c88855362ff29b",
+          "url": "https://github.com/harinath02/textlint/commit/006c313d458c757fc99e54153d1fb11777570e0b"
+        },
+        "date": 1778343980586,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.23081155224,
+            "range": "± 0.056972401000000006",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.8936697576400001,
+            "range": "± 0.047714485000000195",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6986496736400001,
+            "range": "± 0.025953617999999956",
             "unit": "seconds"
           }
         ]
