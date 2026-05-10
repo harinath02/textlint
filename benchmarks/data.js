@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778344824052,
+  "lastUpdate": 1778418307695,
   "repoUrl": "https://github.com/harinath02/textlint",
   "entries": {
     "Benchmark": [
@@ -108863,6 +108863,48 @@ window.BENCHMARK_DATA = {
             "name": "npm run bench:jtf-style",
             "value": 0.6599636649,
             "range": "± 0.014673139999999973",
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "harinath24iet@gmail.com",
+            "name": "harinath02",
+            "username": "harinath02"
+          },
+          "committer": {
+            "email": "harinath24iet@gmail.com",
+            "name": "harinath02",
+            "username": "harinath02"
+          },
+          "distinct": true,
+          "id": "8c87402ff3f4a96eac596b322e8896b517bcb7c4",
+          "message": "Merge remote-tracking branch 'upstream/master' into feature/eslint-workflow\n\n# Conflicts:\n#\tpnpm-lock.yaml",
+          "timestamp": "2026-05-10T18:32:53+05:30",
+          "tree_id": "1220b78e954307caf45dd534756931d6c388dab9",
+          "url": "https://github.com/harinath02/textlint/commit/8c87402ff3f4a96eac596b322e8896b517bcb7c4"
+        },
+        "date": 1778418297875,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "npm run bench:self",
+            "value": 0.26480042492,
+            "range": "± 0.27263511400000007",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:technical-writing",
+            "value": 1.8582985655200002,
+            "range": "± 0.03127154099999996",
+            "unit": "seconds"
+          },
+          {
+            "name": "npm run bench:jtf-style",
+            "value": 0.6883067513200001,
+            "range": "± 0.010442881999999987",
             "unit": "seconds"
           }
         ]
